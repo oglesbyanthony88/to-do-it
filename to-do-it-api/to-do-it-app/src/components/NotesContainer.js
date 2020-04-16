@@ -4,15 +4,15 @@ class NotesContainer extends Component {
 	render() {
 		return (
 				<div>
-					<div className="inputContainer">
+					<div className="NotesnputContainer">
 						<input className="noteTitleInput" type="text"
 						placeholder="Notes Title" maxLength="50" />
 						<input className="noteContentInput" type="text"
 						placeholder="Add Notes Here" />
 					</div>
-					<div className="listWrapper">
+					<div className="NotesListWrapper">
 						<ul className="notesList">
-						<ul>
+						</ul>
 					</div>
 				</div>
 			)

@@ -42,7 +42,7 @@ class TodosContainer extends Component {
 	}
 
 	componentDidMount() {
-		this.getTodos()
+		this.getTodos();
 	}
 
 	render() {
