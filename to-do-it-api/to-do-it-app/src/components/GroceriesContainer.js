@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 import {connect} from 'react-redux'
-import {loadGroceries, addGrocery, toggleGrocery, deleteGrocery} from '../actions/actionCreators'
+import {loadGroceries, addGrocery, toggleGrocery, deleteGrocery} from '../actions/groceryActionCreators'
 
 
 class GroceriesContainer extends Component {
