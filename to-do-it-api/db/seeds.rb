@@ -11,3 +11,6 @@ Todo.create(title: "Imagine Dragons tickets", done: false)
 
 Note.create(title: "Today sucked", content: "I spilled milk all over the floor and the dog slipped in it.")
 Note.create(title: "Today rocked", content: "I won $1000 and then bought a gallon of milk.")
+
+Grocery.create(title: "Milk", done: false)
+Grocery.create(title: "Eggs", done: false)
