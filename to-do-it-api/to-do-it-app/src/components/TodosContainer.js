@@ -47,7 +47,8 @@ class TodosContainer extends Component {
 
 	render() {
 		return (
-				<div>
+				<div className="container">
+				<h1>To Do List</h1>
 					<div className="inputContainer">
 						<input className="taskInput" type="text"
 							placeholder="Add a Task" maxLength="50"
