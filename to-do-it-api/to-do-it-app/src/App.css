@@ -3,6 +3,10 @@ ul.taskList {
   padding: 0 25px;
 }
 
+ul.groceryList {
+  padding: 0 25px;
+}
+
 ul.notesList {
   position: relative;
   padding: 0 25px;
@@ -30,6 +34,19 @@ li.note {
 }
 
 li.note:hover .deleteTaskBtn {
+  visibility: visible;
+  opacity: 1;
+}
+
+li.grocery {
+  list-style-type: none;
+  font-family: Tahoma;
+  font-size: 1.2em;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+li.grocery:hover .deleteTaskBtn {
   visibility: visible;
   opacity: 1;
 }
@@ -96,6 +113,13 @@ input[placeholder] {
 }
 
 .inputContainer .taskInput {
+  padding: 10px;
+  width: 100%;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.inputContainer .groceryInput {
   padding: 10px;
   width: 100%;
   border-radius: 25px;
