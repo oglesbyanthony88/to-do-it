@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import TodoHeader from '../components/TodoHeader'
-import TodoInput from '../components/TodoInput'
-import TodoList from '../components/TodoList'
+import TodoHeader from '../components/todo/TodoHeader'
+import TodoInput from '../components/todo/TodoInput'
+import TodoList from '../components/todo/TodoList'
 
 class TodosContainer extends Component {
 

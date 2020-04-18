@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import {addNote} from '../actions/noteActionCreators'
+import {addNote} from '../../actions/noteActionCreators'
 import {connect} from 'react-redux'
 
 class NoteInput extends Component {

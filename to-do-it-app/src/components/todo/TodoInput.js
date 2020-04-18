@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { addTodo } from '../actions/todoActionCreators'
+import { addTodo } from '../../actions/todoActionCreators'
 import {connect} from 'react-redux'
 
 

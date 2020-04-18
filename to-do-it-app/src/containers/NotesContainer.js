@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import NoteHeader from '../components/NoteHeader'
-import NoteInput from '../components/NoteInput'
-import NoteList from '../components/NoteList'
+import NoteHeader from '../components/notes/NoteHeader'
+import NoteInput from '../components/notes/NoteInput'
+import NoteList from '../components/notes/NoteList'
 
 class NotesContainer extends Component {
 	render() {

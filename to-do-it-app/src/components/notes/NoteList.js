@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 import {connect} from 'react-redux'
-import {loadNotes, deleteNote} from '../actions/noteActionCreators'
+import {loadNotes, deleteNote} from '../../actions/noteActionCreators'
 
 
 class NoteList extends Component {
