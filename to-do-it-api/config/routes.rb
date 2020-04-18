@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-	scope 'api/v1' do
+	scope ':api' do
 			resources :todos
 			resources :notes
 			resources :groceries
