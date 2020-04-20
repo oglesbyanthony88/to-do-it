@@ -1,4 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Organizer README
+
+Both the front end and back end are housed in the to-do-it folder.
+
+# Front End
+
+This Organizer front end was used building React, Redux, React-Router-DOM, and Axios.
+
+All files are located under **to-do-it > to-do-it-app**
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). *See below for more information*
+
+# Back End
+
+The backend was created using Rails --api.
+
+# Installation
+
+```bash
+git clone git@github.com:oglesbyanthony88/to-do-it.git
+```
+
+Open 2 terminal window and cd into the to-do-it folder.
+
+In window one cd into to-do-it-api then run
+
+```bash
+rails s
+```
+
+In window 2 cd into to-do-it-app then run
+
+```bash
+npm start
+``` 
+
+You should recieve this message:
+
+```bash
+? Something is already running on port 3000. Probably:
+  puma 3.12.4 (tcp://localhost:3000) [to-do-it-api] (pid 16531)
+  in /home/anthony/Desktop/to-do-it/to-do-it-api
+
+Would you like to run the app on another port instead? (Y/n)
+```
+
+Enter Yes and a new browser window will open.
+
+Explore!
+
+# Usage
+
+This is a very minimalistic Organizer. there are three catagories.
+
+*Grocery List* *To Do List* *Notes*
+
+Each has the ability of CRUDing new items, with the exception of Notes. There is currently no Update for Notes. The purpose and idea of this app is to have one convienient place to house the important lists of your life. Like the planners you used to get in grade school.
+
+# Stretch Goals
+
+Remove Grocery and To Do lists and have a create list function. This will allow users freedom to have more than two lists.
+
+Add a view Notes page with the ability to make edits to these notes.
+
+# Contributing
+
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+
+# Licence
+
+The gem is available as open source under the terms of the MIT License.
+
+# Code of Conduct
+
+Everyone interacting in the Evergoal project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
+
+# Create React App
 
 ## Available Scripts
 

@@ -7,21 +7,21 @@ const NavBar = () => {
 				<NavLink to="/groceries"
 					exact
 					activeStyle={{
-						color: 'grey'
+						color: 'red'
 					}}>Grocery List
 				</NavLink>
-				~
+				|
 				<NavLink to="/todos"
 					exact
 					activeStyle={{
-						color: 'grey'
+						color: 'red'
 					}}>To Do List
 				</NavLink>
-				~
+				|
 				<NavLink to="/notes"
 					exact
 					activeStyle={{
-						color: 'grey'
+						color: 'red'
 					}}>Notes
 				</NavLink>
 			</div>
