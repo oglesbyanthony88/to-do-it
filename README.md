@@ -14,6 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The backend was created using Rails --api.
 
+All files are located under **to-do-it > to-do-it-api**
+
 # Installation
 
 ```bash
@@ -52,7 +54,7 @@ Explore!
 
 This is a very minimalistic Organizer. there are three catagories.
 
-*Grocery List* *To Do List* *Notes*
+*Grocery List* | *To Do List* | *Notes*
 
 Each has the ability of CRUDing new items, with the exception of Notes. There is currently no Update for Notes. The purpose and idea of this app is to have one convienient place to house the important lists of your life. Like the planners you used to get in grade school.
 
